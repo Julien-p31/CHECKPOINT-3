@@ -60,7 +60,7 @@
 
 # 📊 Q.2.3.2 
 
-- On retrouve comme systèmpe de stockage du ``HDD`` et du ``RAID1``.
+- On retrouve comme système de stockage du ``HDD``, ``RAID1`` et ``LVM``.
   
 ---
 
