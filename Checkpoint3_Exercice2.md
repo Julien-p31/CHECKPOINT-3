@@ -100,13 +100,19 @@ Bareos-fd : C'est l'agent installé sur les machines à sauvegarder. (c'est lui 
 
 # 📊 Q.2.5.1 
 
+![2 5 1](https://github.com/user-attachments/assets/6722bdf9-48ff-4e3c-8f03-c7cbf83681df)
+
 ---
 
 # 📊 Q.2.5.2 
 
+![2 5 2](https://github.com/user-attachments/assets/a919cb24-5020-4139-86d8-41b5473222f8)
+
 ---
 
 # 📊 Q.2.5.3 
+
+Pour cette configuration, tout les autres types sont interdit sauf ceux indiqué ``accept``.
 
 ---
 
@@ -120,3 +126,4 @@ Bareos-fd : C'est l'agent installé sur les machines à sauvegarder. (c'est lui 
 
 # 📊 Q.2.6.1
 
+![2 6 1](https://github.com/user-attachments/assets/3c766c62-78e7-40b4-aa58-f5023b3b92d7)
