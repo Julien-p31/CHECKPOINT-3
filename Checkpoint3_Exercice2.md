@@ -1,1 +1,122 @@
-# CHECKPOINT-3
+# 🎯Partie 1 : Gestion des utilisateurs
+
+# 📊 Q.2.1.1 
+
+![2 1 1](https://github.com/user-attachments/assets/cfd59120-68b6-4a19-a085-41eba264d07b)
+
+---
+
+# 📊 Q.2.1.2 
+
+Pour mon compte à usage personnel, je lui donnerais le moindre privilège pour qu'il ait accès juste a ce dont il a besoin. Je mettrais également un mot de passe robuste.
+
+---
+
+# 🎯 Partie 2 : Configuration de SSH
+
+
+# 📊 Q.2.2.1 
+
+![2 2 1](https://github.com/user-attachments/assets/b1faadf0-de98-4d03-a418-98ed0355a072)
+
+---
+
+# 📊 Q.2.2.2 
+
+![2 2 2](https://github.com/user-attachments/assets/89570386-79c6-4f90-afe1-8c285898d4a7)
+
+---
+
+# 📊 Q.2.2.3 
+
+![2 2 3](https://github.com/user-attachments/assets/f7858edd-5d87-4e36-9e13-5fc61bb86650)
+
+
+Pour mettre en place une authentification par clé valide, il faut faire en sorte que la machine cliente est ``openssh-server`` d'installer, puis sur le serveur créer une clé avec la commande ``ssh-keygen -t ecdsa`` puis de faire un envoi via ssh de la clé public avec la commande ``ssh-copy-id -i <emplacement ou se trouve la clé public "id_ecdsa_pub"> user@ip_client_ubuntu`` (modifier selon nom d'utilisateur et ip de la machine cliente).
+
+Et modifier également le fichier de configuration ``sshd_config`` pour permettre uniquement la connexion via clé et non par mot de passe.
+
+---
+
+
+# 🎯 Partie 3 : Analyse du stockage
+
+# 📊 Q.2.3.1 
+
+![2 3 1](https://github.com/user-attachments/assets/16700ea1-5d1c-4c42-bf48-bb2abf28f8be)
+
+---
+
+# 📊 Q.2.3.2 
+
+
+---
+
+# 📊 Q.2.3.3 
+
+![2 3 3](https://github.com/user-attachments/assets/9f812563-1c25-4020-88e0-4df47ff76117)
+
+![2 3 3 1](https://github.com/user-attachments/assets/2a7c7270-6910-47bd-8150-06f035a23d4c)
+
+![2 3 3 2](https://github.com/user-attachments/assets/1d04322b-ceb2-4563-9478-7992f34ea115)
+
+![2 3 3 3](https://github.com/user-attachments/assets/a30ea383-095f-4f3c-bdab-6bc81da3c80d)
+
+![2 3 3 4](https://github.com/user-attachments/assets/84dd61c1-daf5-4890-bf45-a23f9a761fc2)
+
+---
+
+# 📊 Q.2.3.4 
+
+![2 3 4 2](https://github.com/user-attachments/assets/461a4269-89f8-400d-ba6c-115c1a9c2bfd)
+
+![2 3 4 3](https://github.com/user-attachments/assets/34ae0c3a-5e2d-49bb-8b12-c88baf49fbf5)
+
+![2 3 4 4](https://github.com/user-attachments/assets/65cb540f-f06a-4db9-ab08-bc5844476c80)
+
+![2 3 4 5](https://github.com/user-attachments/assets/7598dd49-c2a6-4693-80c2-fab730b095b4)
+
+---
+
+# 📊 Q.2.3.5 
+
+![2 3 4 6](https://github.com/user-attachments/assets/72423d74-e3f8-4574-9823-f87f5b2a2e98)
+---
+
+# 🎯 Partie 4 : Sauvegardes
+
+# 📊 Q.2.4.1 
+
+Bareos-dir : C'est celui qui est en charge de l'orchestration des sauvegardes (quoi sauvegarder, quand sauvegarder et ou envoyer les sauvegardes).
+
+Bareos-sd : C'est celui qui gère le stockage des sauvegardes.
+
+Bareos-fd : C'est l'agent installé sur les machines à sauvegarder. (c'est lui qui transmet les données sur le "Bareos-sd").
+
+---
+
+
+# 🎯 Partie 5 : Filtrage et analyse réseau
+
+# 📊 Q.2.5.1 
+
+---
+
+# 📊 Q.2.5.2 
+
+---
+
+# 📊 Q.2.5.3 
+
+---
+
+# 📊 Q.2.5.4
+
+
+---
+
+
+# 🎯 Partie 6 : Analyse de logs
+
+# 📊 Q.2.6.1
+
