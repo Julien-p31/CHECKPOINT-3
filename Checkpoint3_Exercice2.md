@@ -153,6 +153,12 @@
 
 # 📊 Q.2.5.4
 
+- Utilisation de la commande (destination) : ``nft add rule inet <nom de la table> <nom de la chaine> tcp dport { 9101, 9102, 9103 } accept``
+- Utilisation de la commande (source) : ``nft add rule inet <nom de la table> <nom de la chaine> tcp sport { 9101, 9102, 9103 } accept``.
+- Puis finir par cette commande pour bloquer le reste : ``nft add rule inet <nom de la table> <nom de la chaine> drop``.
+
+![2 5 4](https://github.com/user-attachments/assets/4491b6ac-c302-4131-a279-a780951544df)
+
 
 ---
 
