@@ -60,7 +60,8 @@
 
 # 📊 Q.2.3.2 
 
-
+- On retrouve comme systèmpe de stockage du ``HDD`` et du ``RAID1``.
+  
 ---
 
 # 📊 Q.2.3.3 
