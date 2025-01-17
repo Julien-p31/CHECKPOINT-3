@@ -66,7 +66,7 @@
 
 # 📊 Q.2.3.3 
 
-- Utilisation de la commande : ``mdadm --detail /dev/md0", pour voir l'état du RAID.
+- Utilisation de la commande : ``mdadm --detail /dev/md0``, pour voir l'état du RAID.
 
 ![2 3 3](https://github.com/user-attachments/assets/9f812563-1c25-4020-88e0-4df47ff76117)
 
