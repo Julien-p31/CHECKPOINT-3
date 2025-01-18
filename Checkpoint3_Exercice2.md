@@ -141,6 +141,8 @@
 
 # 📊 Q.2.5.2 
 
+- Les types de communications autorisées sont :
+
 ![2 5 2](https://github.com/user-attachments/assets/a919cb24-5020-4139-86d8-41b5473222f8)
 
 ---
