@@ -52,7 +52,7 @@
 
 # 📊 Q.2.3.1 
 
-``EXT2, EXT4, LVM2, SWAP``
+- ``EXT2, EXT4, LVM2, SWAP``
 
 ![2 3 1](https://github.com/user-attachments/assets/16700ea1-5d1c-4c42-bf48-bb2abf28f8be)
 
