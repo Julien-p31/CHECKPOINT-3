@@ -120,11 +120,11 @@
 
 # 📊 Q.2.4.1 
 
-**Bareos-dir :** C'est celui qui est en charge de l'orchestration des sauvegardes (quoi sauvegarder, quand sauvegarder et ou envoyer les sauvegardes).
+- **Bareos-dir :** C'est celui qui est en charge de l'orchestration des sauvegardes (quoi sauvegarder, quand sauvegarder et ou envoyer les sauvegardes).
 
-**Bareos-sd :** C'est celui qui gère le stockage des sauvegardes.
+- **Bareos-sd :** C'est celui qui gère le stockage des sauvegardes.
 
-**Bareos-fd :** C'est l'agent installé sur les machines à sauvegarder. (c'est lui qui transmet les données sur le "Bareos-sd").
+- **Bareos-fd :** C'est l'agent installé sur les machines à sauvegarder. (c'est lui qui transmet les données sur le "Bareos-sd").
 
 ---
 
