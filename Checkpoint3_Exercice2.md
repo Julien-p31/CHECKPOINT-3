@@ -142,6 +142,11 @@
 # 📊 Q.2.5.2 
 
 - Les types de communications autorisées sont :
+  
+- Tout le réseau localhost.
+- Les connexions SSH (TCP port 22).
+- Les pings ICMP pour IPv4.
+- Les pings ICMP pour IPv6.
 
 ![2 5 2](https://github.com/user-attachments/assets/a919cb24-5020-4139-86d8-41b5473222f8)
 
