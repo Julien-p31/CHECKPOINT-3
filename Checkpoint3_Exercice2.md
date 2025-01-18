@@ -141,7 +141,7 @@
 
 # 📊 Q.2.5.2 
 
-- Les types de communications autorisées sont :
+**Les types de communications autorisées sont :**<br>
   
 - Tout le réseau localhost.
 - Les connexions SSH (TCP port 22).
