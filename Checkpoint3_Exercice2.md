@@ -141,20 +141,18 @@
 
 # 📊 Q.2.5.2 
 
-**Les types de communications autorisées sont :**<br>
-  
-- Tout le réseau localhost.
-- Les connexions SSH (TCP port 22).
-- Les pings ICMP pour IPv4.
-- Les pings ICMP pour IPv6.
+- ```ct state established, related accept``` : les retours de connexions déjà établies.
 
-![2 5 2](https://github.com/user-attachments/assets/a919cb24-5020-4139-86d8-41b5473222f8)
+- ```iifname "lo" accept``` autorise le trafic local.
+- ```TCP dport 22 accept``` autorise les connexions TCP destinées au port 22 (port SSH).
+- ```IP protocol icmp accept``` autorise les pings IPV4.
+- ```IP6 nexthdr icmpv6 accept``` autorise les pings IPV6.
 
 ---
 
 # 📊 Q.2.5.3 
 
-- Pour cette configuration, tout les autres types sont interdit sauf ceux indiqué ``accept``.
+- ct state invalid drop : les paquets ne pouvant pas être identifiés à une requêtes.
 
 ---
 
@@ -174,4 +172,5 @@
 
 # 📊 Q.2.6.1
 
-![2 6 1](https://github.com/user-attachments/assets/3c766c62-78e7-40b4-aa58-f5023b3b92d7)
+![2 6 1](https://github.com/user-attachments/assets/1c460344-6679-49a7-b45d-7a103d169d5b)
+
