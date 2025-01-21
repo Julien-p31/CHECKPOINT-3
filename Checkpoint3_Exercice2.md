@@ -153,6 +153,7 @@
 # 📊 Q.2.5.3 
 
 - ```ct state invalid drop``` : les paquets ne pouvant pas être identifiés à une requêtes.
+- Et tout le reste qui n'est pas en ``accept``.
 
 ---
 
